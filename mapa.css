@@ -1,0 +1,84 @@
+body{
+  background-image: url("mapa.jpeg");
+  background-size: cover;
+  background-color: blue;
+  align-items: center;
+}
+.dropdown{
+  position:  absolute;
+  display:  inline-block;
+  margin: 0px 0px 100px 705px;
+  
+}
+h1{
+  text-align: center;
+  color: #00FF00;
+}
+.quisques{
+  position: absolute;
+  display:  inline-block;
+  margin: 400px 0px 0px 810px;
+}
+.biblioteca{
+  position:  absolute;
+  display:  inline-block;
+  margin: 120px 0px 0px 300px;
+}
+.quadrafechada{
+  position: absolute;
+  display:  inline-block;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.almoxarifado{
+  position: absolute;
+  display:  inline-block;
+  margin: margin-right: 0px;
+  margin-left: 0px;
+}
+.refeitorio{
+  position: absolute;
+  display:  inline-block;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.entrada{
+  position: absolute;
+  display:  inline-block;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.quisques:hover .dropdown-content{
+  display: block;
+}
+.biblioteca:hover .dropdown-content{
+  display: block;
+}
+.quadrafechada:hover .dropdown-content{
+  display: block;
+}
+.almoxarifado:hover .dropdown-content{
+  display: block;
+}
+.refeitorio:hover .dropdown-content{
+  display: block;
+}
+.entrada:hover .dropdown-content{
+  display: block;
+}
+.desc{
+  padding: 5px;
+  text-align: center;
+}
